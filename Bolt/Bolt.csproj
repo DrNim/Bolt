@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E038CEE6-CA2A-4F9B-AD32-7525FE18048E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bolt</RootNamespace>
+    <AssemblyName>Bolt</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Certificates\Entity.cs" />
+    <Compile Include="Certificates\EntityCollection.cs" />
+    <Compile Include="Certificates\EntityOptions.cs" />
+    <Compile Include="Certificates\EntityTagPair.cs" />
+    <Compile Include="Certificates\Tag.cs" />
+    <Compile Include="Certificates\TagOptions.cs" />
+    <Compile Include="EventArgs\DataEncodedEventArgs.cs" />
+    <Compile Include="Frames\BaseFrame.cs" />
+    <Compile Include="BoltClient.cs" />
+    <Compile Include="BoltBase.cs" />
+    <Compile Include="BoltServer.cs" />
+    <Compile Include="Frames\ClientEchoFrame.cs" />
+    <Compile Include="Frames\ClientExchangeFrame.cs" />
+    <Compile Include="Frames\ClientNegotiateFrame.cs" />
+    <Compile Include="EventArgs\DataDecodedEventArgs.cs" />
+    <Compile Include="EventArgs\ExceptionThrownEventArgs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\AesCounterModeProvider.cs" />
+    <Compile Include="Security\CounterModeCryptoTransform.cs" />
+    <Compile Include="Security\CounterModeProviderBase.cs" />
+    <Compile Include="Security\HashPuzzle.cs" />
+    <Compile Include="Security\HMACAlgorithmName.cs" />
+    <Compile Include="Security\Rfc5869DeriveBytes.cs" />
+    <Compile Include="Frames\ServerEchoFrame.cs" />
+    <Compile Include="Frames\ServerExchangeFrame.cs" />
+    <Compile Include="Frames\ServerNegotiateFrame.cs" />
+    <Compile Include="Frames\ServerValidateFrame.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

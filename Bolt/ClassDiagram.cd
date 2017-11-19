@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bolt.BaseFrame" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAACAAAAECAAACBAAAEAAACAAAAAAAA=</HashCode>
+      <FileName>Frames\BaseFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bolt.ClientEchoFrame">
+    <Position X="9.75" Y="10.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Frames\ClientEchoFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bolt.ClientExchangeFrame">
+    <Position X="9.75" Y="6.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEgAAAAAAAAMAQAACAAAACAAAAAAAEAAAE=</HashCode>
+      <FileName>Frames\ClientExchangeFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bolt.ServerEchoFrame">
+    <Position X="7.25" Y="9.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Frames\ServerEchoFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bolt.ServerExchangeFrame">
+    <Position X="7" Y="4.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAgAAAAAAAAMAAAAiAAAAAAAAAAAAEACAA=</HashCode>
+      <FileName>Frames\ServerExchangeFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bolt.ServerNegotiateFrame">
+    <Position X="7" Y="2.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAEAAIACAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Frames\ServerNegotiateFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bolt.ClientNegotiateFrame">
+    <Position X="9.75" Y="3.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAACAAAEAAIACAAAAAAAAAAAAEACAA=</HashCode>
+      <FileName>Frames\ClientNegotiateFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bolt.CopyOfServerEchoFrame">
+    <Position X="7.25" Y="11.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Frames\ServerEchoFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bolt.ServerValidateFrame">
+    <Position X="7" Y="7.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAEAQAACAAAACAAAAAAAEAAAE=</HashCode>
+      <FileName>Frames\ServerValidateFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
